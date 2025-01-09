@@ -8,10 +8,10 @@ function Gallery() {
       <h2>갤러리</h2>
       <Swiper>
         <SwiperSlide>
-          <img src="image1.jpg" alt="웨딩 사진 1" />
+          <img src="src\img\1.jpg" alt="웨딩 사진 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="image2.jpg" alt="웨딩 사진 2" />
+          <img src="\src\img\7.jpg" alt="웨딩 사진 2" />
         </SwiperSlide>
         {/* 추가 이미지 */}
       </Swiper>
