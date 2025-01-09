@@ -1,11 +1,11 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Cover() {
   return (
     <div className="cover">
-      <h1>우리 결혼합니다</h1>
-      <p>2025년 1월 9일</p>
+      <h1>제목</h1>
+      <p>2025년 5월 4일</p>
       <Link to="/intro">입장하기</Link>
     </div>
   );

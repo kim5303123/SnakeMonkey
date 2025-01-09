@@ -1,42 +1,116 @@
-#root {
-  max-width: 1280px;
+/* App.css */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.App {
+  max-width: 800px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #4a4a4a;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Cover.css */
+.cover {
+  text-align: center;
+  padding: 50px 0;
+  background-image: url('path/to/your/background-image.jpg');
+  background-size: cover;
+  color: #fff;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cover h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.cover p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
 }
 
-.card {
-  padding: 2em;
+.cover a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
-.read-the-docs {
-  color: #888;
+.cover a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Intro.css */
+.intro {
+  padding: 30px;
+  text-align: center;
+}
+
+/* Gallery.css */
+.gallery {
+  margin: 30px 0;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Location.css */
+.location {
+  margin: 30px 0;
+}
+
+.location h2 {
+  margin-bottom: 20px;
+}
+
+/* RSVP.css */
+.rsvp {
+  margin: 30px 0;
+}
+
+.rsvp form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rsvp input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.rsvp label {
+  margin-bottom: 10px;
+}
+
+.rsvp button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.rsvp button:hover {
+  background-color: #45a049;
 }
